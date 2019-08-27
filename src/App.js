@@ -1,25 +1,64 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      
+      <section className="nav-bar">
+        <button className="home-button">Home</button>
+      <div className="nav-right">
+        <button className="servers-button">Server's</button>
+        <button className="kits-button">Kit's</button>
+        <button className="contact-button">Contact</button>
+      </div>
+    </section>
+
+    <section className="servers-list">
+      <div className="server-1">
+        <div className="server-title">
+        <h1>---Blanks--- Server 1</h1>
+        </div>
+        <div className="information-kits">
+        <div>
+        <button className="information-button">Information</button>
+        </div>
+        <div className="kits">
+        <button className="kits-button-2">Kits</button>
+        </div>
+        </div>
+      </div>
+
+      <div className="server-2">
+        <div className="server-title">
+        <h1>---Blanks--- Server 2</h1>
+        </div>
+        <div className="information-kits">
+        <div>
+        <button className="information-button">Information</button>
+        </div>
+        <div className="kits">
+        <button className="kits-button-2">Kits</button>
+        </div>
+        </div>
+      </div>
+
+      <div className="server-3">
+        <div className="server-title">
+        <h1>---Blanks--- Server 3</h1>
+        </div>
+        <div className="information-kits">
+        <div>
+        <button className="information-button">Information</button>
+        </div>
+        <div className="kits">
+        <button className="kits-button-2">Kits</button>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    </body>
   );
 }
 
